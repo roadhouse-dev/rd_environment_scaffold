@@ -1,6 +1,6 @@
 # RdEnvironmentScaffold
 
-A Flutter Library to build and customize the Flutter's scaffold widget, which show environment banner.  
+A Flutter Library to build and customise the Flutter's scaffold widget, which show environment banner.  
 
 ## How to use
 
@@ -13,11 +13,13 @@ Import the package
 ```
 
 1- Add the following import to your Dart code:
+
 ```dart
 import 'package:rd_environment_scaffold/rd_environment_scaffold.dart';
-
 ```
-2- Use like Scaffold, on top on that you can set build type, it wil show different banner, if build type is BuildType.stage or BuildType.uat. 
+
+2- Use like Scaffold, on top on that you can set build type, it will show different banner, if build type is BuildType.stage or BuildType.uat. 
+
 ```dart
 class StagePage extends StatelessWidget {
   @override
