@@ -6,7 +6,7 @@ import 'package:rd_environment_scaffold/src/environment_banner.dart';
 class RdEnvironmentScaffold extends Scaffold {
   RdEnvironmentScaffold({
     Key key,
-    AppBar appBar,
+    PreferredSizeWidget appBar,
     Widget body,
     Widget floatingActionButton,
     FloatingActionButtonLocation floatingActionButtonLocation,
